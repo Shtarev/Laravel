@@ -68,6 +68,7 @@ DB_PASSWORD=2222
 
 сиздать пустую mysql базу с именем laravel с пользователем root и паролем 2222
 
+##################################
 
 ввести в консоль:
 
@@ -75,13 +76,15 @@ sudo chmod -R 777 storage
 
 sudo chmod -R 777 bootstrap/cache
 
+php artisan key:generate
+
 composer install
 
 npm install
 
 php artisan migrate
 
-php artisan key:generate
+php artisan voyager:install --with-dummy
 
 ##################################
 
