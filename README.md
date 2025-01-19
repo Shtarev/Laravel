@@ -44,6 +44,10 @@ vite
 
 Всё установленное имеет базовую настройку
 
+------------------
+клонирование:
+
+https://github.com/Shtarev/Laravel.git ./
 
 После клонирования
 
@@ -76,13 +80,13 @@ sudo chmod -R 777 storage
 
 sudo chmod -R 777 bootstrap/cache
 
-php artisan key:generate
-
 composer install
 
 npm install
 
 php artisan migrate
+
+php artisan key:generate
 
 php artisan voyager:install --with-dummy
 
