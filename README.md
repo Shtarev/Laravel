@@ -47,7 +47,7 @@ vite
 ------------------
 клонирование:
 
-https://github.com/Shtarev/Laravel.git ./
+git clone https://github.com/Shtarev/Laravel.git ./
 
 После клонирования
 
