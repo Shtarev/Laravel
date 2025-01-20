@@ -95,3 +95,15 @@ php artisan voyager:install --with-dummy
 Сайт доступен: http://laravel.loc
 
 Админка: http://laravel.loc/admin
+
+##################################
+
+Debuging:
+
+В файле vendor/tcg/voyager/src/Database/Schema/SchemaManager.php на 65 строке замени:
+
+return collect($columns)->map(function ($column) use ($tableName) {
+
+на 
+
+return @collect($columns)->map(function ($column) use ($tableName) {
