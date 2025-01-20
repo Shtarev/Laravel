@@ -96,7 +96,8 @@ php artisan voyager:install --with-dummy
 
 Админка: http://laravel.loc/admin
 
-##################################
+__________________________________
+
 
 Debuging:
 
@@ -107,3 +108,7 @@ return collect($columns)->map(function ($column) use ($tableName) {
 на 
 
 return @collect($columns)->map(function ($column) use ($tableName) {
+
+---
+
+установить права: sudo chmod -R 777 storage
