@@ -111,4 +111,3 @@ return @collect($columns)->map(function ($column) use ($tableName) {
 
 ---
 
-установить права: sudo chmod -R 777 storage
