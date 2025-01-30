@@ -111,3 +111,7 @@ return @collect($columns)->map(function ($column) use ($tableName) {
 
 ---
 
+Таблица users поле role_id выставить, что может быть Null и по дефолту Null
+
+---
+
