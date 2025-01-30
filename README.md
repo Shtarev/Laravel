@@ -96,8 +96,8 @@ php artisan voyager:install --with-dummy
 
 Админка: http://laravel.loc/admin
 
-__________________________________
 ##################################
+__________________________________
 
 Debuging:
 
